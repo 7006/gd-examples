@@ -18,7 +18,7 @@ class Figures {
     imagefilledellipse ($png_image, 200, 150, 150, 75, $green);    // ELLIPSE
 
     $poly_points = array(150, 200, 100, 280, 200, 280);
-    //imagefilledpolygon ($png_image, $poly_points, 3, $green);      // POLYGON
+    imagefilledpolygon ($png_image, $poly_points, 3, $green);      // POLYGON
 
     imagepng($png_image);
     imagedestroy($png_image);
